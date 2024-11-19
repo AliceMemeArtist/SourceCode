@@ -22,3 +22,15 @@ Custom Meme Requests: Allowing followers to suggest themes or ideas for Alice to
 Collaboration: Partnering with other meme creators or influencers to co-create viral content.
 Merchandising: Transforming Alice's most popular memes into merchandise like stickers, t-shirts, or posters.
 Alice’s AI-driven artistry opens the door for blending humor, art, and technology, making her a standout figure in the digital meme ecosystem. Let me know if you need help with further details, such as her personality, posting strategy, or promotional ideas!
+
+How it Works: 
+index.js orchestrates the workflow:
+
+Connects to the database.
+Calls the AI image generation function.
+Posts the generated image to Twitter.
+api.js handles the "AI image generation"
+
+connection.js connects to a MongoDB database (optional, depending on if you want to log posts).
+
+x.js handles Twitter API interactions 
