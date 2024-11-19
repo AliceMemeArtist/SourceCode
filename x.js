@@ -35,7 +35,7 @@ async function postToTwitter(imageUrl, text) {
     console.log('Posting tweet...');
     return {
         status: 'success',
-        tweet_id: 'FAKE_TWEET_ID',
+        tweet_id: 'TWEET_ID',
         text,
         image_url: imageUrl,
     };
